@@ -1,0 +1,1 @@
+powershell.exe -file TabCMD-EmailParm.ps1 "Obesity" "South"
