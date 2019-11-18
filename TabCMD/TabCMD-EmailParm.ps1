@@ -3,8 +3,8 @@ $Region=$args[1]
 
 $Folder = "C:\temp\"
 $server = "https://online.tableau.com/#/site/hosesadev694660"
-$username = "jose.cervantes@usaa.com"
-$password = "Tableau1309"
+$username = "tabvisualization@gmail.com"
+$password = "*********"
 $tabcmd = "tabcmd.exe"
 $URL = "/views/Regional/" + $ReportName + ".pdf"
 
@@ -33,14 +33,14 @@ $params = @{
     BodyAsHtml = $true 
     Subject = 'Tableau Report-' + $Region
     From = 'tabvisualization@gmail.com' 
-    To = ("jcervantesSA@gmail.com")
+    To = ("tablvisualization@gmail.com")
     SmtpServer = 'smtp.gmail.com' 
     Port = 587 
     UseSsl = $true 
 } 
  
        $username = 'tabvisualization@gmail.com'
-       $password = "Tableau1309"
+       $password = "************"
        $secpasswd = ConvertTo-SecureString $password -AsPlainText -Force
        $mycreds = New-Object System.Management.Automation.PSCredential ($username, $secpasswd)
 
