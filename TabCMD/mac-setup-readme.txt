@@ -1,4 +1,4 @@
-download unix tabcmd
+download unix tabcmd - use the linux version _all.deb (about 10mb)
 install unzipper
 open up data.gz file and locate data, navigate and copy tabcmd into root directory
 navigate to root directoy
